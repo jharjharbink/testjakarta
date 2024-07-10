@@ -5,7 +5,7 @@ import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 @WebServlet(name = "customHttpServlet", value = "/html")
-public class CustomHttpServlet extends HttpServlet {
+public class CustomHtmlServlet extends HttpServlet {
 
     public void init() {}
 

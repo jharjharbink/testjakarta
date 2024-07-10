@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet(name = "textServlet", value = "/plainTexte")
-public class textServlet extends CustomHttpServlet {
+public class TextServlet extends CustomHtmlServlet {
 
     public void init() {
 
