@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Salut Cédric</title>
+    <link href="${pageContext.request.contextPath}/style.css">
 </head>
 <body>
     <h1>Hello JSP</h1>

@@ -14,7 +14,12 @@ public class CustomHtmlServlet extends HttpServlet {
 
         // Hello
         PrintWriter out = response.getWriter();
-        out.println("<html><body>");
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<title>Custom Servlet</title>");
+        out.println("<link href=${pageContext.request.contextPath}/resources/css/style.css>");
+        out.println("</head>");
+        out.println("<body>");
         out.println("<h1> Hello Http </h1>");
         out.println("</body></html>");
     }
