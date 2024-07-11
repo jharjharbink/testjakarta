@@ -13,6 +13,8 @@
 <a href="html">Hello html</a>
 <a href="jsp">Hello JSP</a>
 
+<hr>
+
 <a href="jspBootstrap1">Hello JSP Bootstrape 1</a>
 <a href="jspBootstrap2">Hello JSP Bootstrape 2</a>
 

@@ -17,7 +17,7 @@ public class JspBootstrap2 extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        getServletContext().getRequestDispatcher("/JspBootstrap2.jsp").forward(req, resp);
+        getServletContext().getRequestDispatcher("/WEB-INF/JspBootstrap2.jsp").forward(req, resp);
     }
 
     @Override
