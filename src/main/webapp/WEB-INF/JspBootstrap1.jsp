@@ -6,6 +6,6 @@
     <%@include file="linkBootstrap.html"%>
 </head>
 <body>
-<h1>jspBootstrap1</h1>
+<h1>jspBootstrap1.</h1>
 </body>
 </html>
